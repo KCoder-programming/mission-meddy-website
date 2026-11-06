@@ -1,11 +1,9 @@
 /**
  * Mission Meddy — Static Site Vanilla JavaScript
  * Handles mobile navigation, spoiler lock gate, chapter accordion,
- * clipboard copy tools, roadmap voting, and community feedback dispatches.
+ * clipboard copy tools.
  */
 
-// Safe localStorage wrapper: some browsers (private mode, blocked storage) throw on access,
-// which used to stop the rest of this file from running.
 const store = {
   get(key) {
     try {
@@ -222,6 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
       updateVoteUI();
     });
   });
+});
 
 function escapeHtml(str) {
   return String(str)
