@@ -67,5 +67,3 @@ mission-meddy-website/
 
 ## Not ready yet? Look for `FUTURE:`
 Anything that is not true or not available yet (browser build, download cards, trailer, itch.io, Discord, voting, devlog 04) is **commented out, not deleted**. Search the project for `FUTURE:` or open `FUTURE-BLOCKS.md`.
-
-Also remember to add `assets/images/dev/movie.mp4` (the dev video on `development.html`); it is not included in this folder.
